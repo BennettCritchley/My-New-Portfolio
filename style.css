@@ -168,6 +168,11 @@ a:hover {
   transition: 0.3s;
 }
 
+.item-map {
+  flex: 1;
+  margin: 10px;
+}
+
 .group-nav ul {
   list-style: none;
 }
