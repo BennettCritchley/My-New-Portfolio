@@ -169,8 +169,9 @@ a:hover {
 }
 
 .item-map {
-  flex: 1;
-  margin: 10px;
+  style: border: 0;
+  height: 90%;
+  width: 90%;
 }
 
 .group-nav ul {
