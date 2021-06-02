@@ -144,6 +144,11 @@ a:hover {
   align-items: center;
 }
 
+.item-half {
+  flex: 0.5;
+  margin: 10px;
+}
+
 .item-double {
   flex: 2;
   margin: 10px;
