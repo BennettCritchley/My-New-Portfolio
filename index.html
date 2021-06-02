@@ -135,16 +135,17 @@
           <div class="item-form">
             <h2 class="h2-email">Send an email :)</h2>
             <form
-              action="mailto:Bennett.critchley1@gmail.com"
+              id="email-f"
+              name="emailform"
+              action="https://formspree.io/f/mbjqozvq"
               method="post"
-              enctype="text/plain"
             >
               <h3><label for="Name">Name:</label></h3>
               <input
                 type="text"
                 id="Name"
                 class="Contact-me-input"
-                name="your-name"
+                name="name"
                 placeholder="Enter your full name here."
                 required
               />
@@ -163,9 +164,7 @@
               <textarea
                 id="Email-message"
                 class="Contact-me-input-msg"
-                name="your-message"
-                rows="5"
-                cols="10"
+                name="message"
                 required
               ></textarea>
 
@@ -183,10 +182,11 @@
               >This is an example of the first portfolio I made for myself. it
               shows my skills at the time to use to compare to now!
             </p>
-            <p
-              >The stack I used for this project was fairly small being HTML and
-              CSS.</p
-            >
+            <p>The stack I used for this project was fairly small being: </p>
+            <ul>
+              <li><h4>HTML</h4></li>
+              <li><h4>CSS</h4></li>
+            </ul>
             <img
               src="images/projects/myface.png"
               alt="My face up close"
@@ -217,10 +217,13 @@
               project I used it as a placeholder to show my skills with VScode
               and Git commands.</p
             >
-            <p
-              >The stack for this project is fairly small as well being just
-              HTML and CSS</p
-            >
+            <p>
+              The stack for this project is fairly small as well being just:
+            </p>
+            <ul>
+              <li><h4>HTML</h4></li>
+              <li><h4>CSS</h4></li>
+            </ul>
             <img
               src="images/projects/pizza.jpg"
               alt="Pizza up close"
